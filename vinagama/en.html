@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html name="language" content="vi">
+
+<head>
+    <title>VINAGAMA</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/javascript-obfuscator/dist/index.browser.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/send_alert.css">
+    <link rel="stylesheet" href="css/slick.min.css">
+    <link rel="stylesheet" href="css/responsive/media.css">
+    <!-- Script -->
+    <script type="text/javascript" src="js/jquery_3.2.1.js"></script>
+    <script type="text/javascript" src="js/init.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+</head>
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modalsp">
+        <div class="modal-content">
+            <div class="khung_video_iframe">
+                <video controls>
+                    <source src="images/slider_home/video/video_slider.mp4">
+                  </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<body>
+    <div id="wrapper" style="max-width: 1920px;">
+        <div id="gop_top">
+            <div id="nav">
+                <div class="nav_header">
+                    <div class="menu_top_left">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/logo.svg"></a>
+                        </div>
+                        <div class="title_logo desktop">
+                            <h3>TRUNG TÂM NGHIÊN CỨU VÀ TRIỂN KHAI CÔNG NGHỆ BỨC XẠ</h3>
+                            <h4>Research and Development Center for Radiation Technology</h4>
+                        </div>
+                    </div>
+                    <div class="menu_top_right">
+                        <div class="menu_top_top desktop">
+                            <form class="timkiem" method="get" action="tim-kiem" id="timkiem">
+                                <input type="text" name="k" autocomplete="off" placeholder="Search…" class="inputnhap">
+                                <button type="submit" name="" value="" class="nuttk"><img src="images/search.svg"></button>
+                            </form>
+                            <div class="language">
+                                <div class="en">
+                                    <a href="index.html">
+                                        <img src="images/EN.svg" alt="">
+                                    </a>
+                                </div>
+                                <div class="vi">
+                                    <a href="index.html">
+                                        <img src="images/VI.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="menu_top">
+                                <a href="index.html" class="menu__link"><img src="images/home.svg" alt=""></a>
+                                <a href="lienhe.html" class="menu__link">Contact</a>
+                            </div>
+                        </div>
+                        <div id="nav-icon" class="menu-button visible-xs">
+                            <span class="burger-icon"></span>
+                        </div>
+                        <div id="menu_home" class="menushow menushows">
+                            <div id="nav_sticky" class="menu-content overlay">
+                                <nav class="menu">
+                                    <ul class="menucll">
+                                        <li class="menu__item mobile">
+                                            <a href="index.html" class="menu__link active_mn">Home</a>
+                                        </li>
+                                        <li class="menu__item to-left">
+                                            <a href="gioithieu.html" class="menu__link">About</a>
+                                            <ul class="menu__sub-menu">
+                                                <li class="menu__sub-menu__item">
+                                                    <a href="lichsuhinhthanh.html" class="menu__sub-menu__link">
+                                                        Lịch sử hình thành
+                                                                </a>
+                                                </li>
+                                                <li class="menu__sub-menu__item">
+                                                    <a href="gioithieu.html" class="menu__sub-menu__link">
+                                                        Sơ đồ tổ chức <i class="arrow-sub"></i>
+                                                                </a>
+                                                    <ul class="menu__sub-menu">
+                                                        <li class="menu__sub-menu__item">
+                                                            <a href="gioithieu.html" class="menu__sub-menu__link">
+                                                                            Ban lãnh đạo trung tâm
+                                                                                    </a>
+                                                        </li>
+                                                        <li class="menu__sub-menu__item">
+                                                            <a href="gioithieu.html" class="menu__sub-menu__link">
+                                                                            Phòng kế toán
+                                                                                    </a>
+
+                                                        </li>
+                                                        <li class="menu__sub-menu__item">
+                                                            <a href="gioithieu.html" class="menu__sub-menu__link">
+                                                                            Phòng nghiên cứu 
+                                                                                    </a>
+                                                        </li>
+                                                        <li class="menu__sub-menu__item">
+                                                            <a href="gioithieu.html" class="menu__sub-menu__link">
+                                                                           Phòng kỹ thuật
+                                                                                    </a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu__sub-menu__item">
+                                                    <a href="chucnangnhienvu.html" class="menu__sub-menu__link">
+                                                        Chức năng và nhiệm vụ
+                                                                </a>
+                                                </li>
+                                                <li class="menu__sub-menu__item">
+                                                    <a href="trangthietbi.html" class="menu__sub-menu__link">
+                                                        Trang thiết bị
+                                                                </a>
+                                                </li>
+                                                <li class="menu__sub-menu__item">
+                                                    <a href="chungchi.html" class="menu__sub-menu__link">
+                                                        Chứng chỉ     
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu__item to-left">
+                                            <a href="sanpham.html" class="menu__link">Product</a>
+                                            <ul class="menu__sub-menu">
+                                                <li class="menu__sub-menu__item">
+                                                    <a href="sanpham.html" class="menu__sub-menu__link">
+                                                        Chế phẩm sinh học
+                                                                </a>
+                                                </li>
+                                                <li class="menu__sub-menu__item">
+                                                    <a href="sanpham.html" class="menu__sub-menu__link">
+                                                        Dây chuyền Vinaga 1
+                                                                </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu__item to-left">
+                                            <a href="dichvu.html" class="menu__link">Services</a>
+                                            <ul class="menu__sub-menu">
+                                                <li class="menu__sub-menu__item">
+                                                    <a href="dichvu.html" class="menu__sub-menu__link">
+                                                        Dịch vụ chiếu xạ <i class="arrow-sub"></i></a>
+                                                    <ul class="menu__sub-menu">
+                                                        <li class="menu__sub-menu__item">
+                                                            <a href="mathang.html" class="menu__sub-menu__link">
+                                                                    Các mặt hàng
+                                                                            </a>
+                                                        </li>
+                                                        <li class="menu__sub-menu__item">
+                                                            <a href="quytrinh.html" class="menu__sub-menu__link">
+                                                                    Quy trình chiếu xạ
+                                                                            </a>
+                                                        </li>
+                                                        <li class="menu__sub-menu__item">
+                                                            <a href="dangky.html" class="menu__sub-menu__link">
+                                                                    Đăng ký
+                                                                            </a>
+                                                        </li>
+                                                        <li class="menu__sub-menu__item">
+                                                            <a href="banggia.html" class="menu__sub-menu__link">
+                                                                    Bảng giá
+                                                                            </a>
+                                                        </li>
+                                                        <li class="menu__sub-menu__item">
+                                                            <a href="chungnhan.html" class="menu__sub-menu__link">
+                                                                    Mẫu chứng nhận
+                                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu__sub-menu__item">
+                                                    <a href="thietkechetao.html" class="menu__sub-menu__link">
+                                                        Thiết kế chế tạo máy chiếu xạ <i class="arrow-sub"></i>
+                                                                </a>
+                                                    <ul class="menu__sub-menu">
+                                                        <li class="menu__sub-menu__item">
+                                                            <a href="thietkechetao.html" class="menu__sub-menu__link">
+                                                                            Thiết kế chế tạo
+                                                                                        </a>
+                                                        </li>
+                                                        <li class="menu__sub-menu__item">
+                                                            <a href="tuvanlapdat.html" class="menu__sub-menu__link">
+                                                                            Tư vấn lắp đặt
+                                                                                        </a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu__sub-menu__item">
+                                                    <a href="nghiencuudaotao.html" class="menu__sub-menu__link">
+                                                        Hợp tác nghiên cứu
+                                                                </a>
+                                                </li>
+                                                <li class="menu__sub-menu__item">
+                                                    <a href="daotao.html" class="menu__sub-menu__link">
+                                                        Đào tạo <i class="arrow-sub"></i>
+                                                                </a>
+                                                    <ul class="menu__sub-menu">
+                                                        <li class="menu__sub-menu__item">
+                                                            <a href="daotao.html" class="menu__sub-menu__link">
+                                                                            Công nghệ bức xạ
+                                                                                                    </a>
+                                                        </li>
+                                                        <li class="menu__sub-menu__item">
+                                                            <a href="daotao.html" class="menu__sub-menu__link">
+                                                                            Vận hành máy chiếu xạ
+                                                                                                    </a>
+                                                        </li>
+                                                        <li class="menu__sub-menu__item">
+                                                            <a href="daotao.html" class="menu__sub-menu__link">
+                                                                            An toàn bức xạ
+                                                                                                    </a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu__item">
+                                            <a href="tintuc.html" class="menu__link">news</a>
+                                        </li>
+                                        <li class="menu__item">
+                                            <a href="nghiencuudaotao.html" class="menu__link">cooperation</a>
+                                        </li>
+                                        <li class="menu__item mobile">
+                                            <a href="lienhe.html" class="menu__link">Contact </a>
+                                        </li>
+                                        <div class="mobile">
+                                            <div class="language">
+                                                <div class="en">
+                                                    <a href="en.html">
+                                                        <img src="images/EN.svg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="vi">
+                                                    <a href="index.html">
+                                                        <img src="images/VI.svg" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <form class="timkiem" method="get" action="tim-kiem" id="timkiem">
+                                                <input type="text" name="k" autocomplete="off" placeholder="Search…" class="inputnhap">
+                                                <button type="submit" name="" value="" class="nuttk"><img src="images/search.svg"></button>
+                                            </form>
+                                        </div>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <img src="images/toggle_close.svg" class="close_menu">
+                        </div>
+                        <div class="imghead">
+                            <img src="images/toggle.svg" alt="">
+                        </div>
+                        <script type="text/javascript">
+                            $('.close_menu').click(function() {
+                                $('.menushow').removeClass('menushows');
+                                $('.imghead').addClass('imghead_active')
+                            })
+                            $('.imghead').click(function() {
+                                $('.menushow').addClass('menushows');
+                                $('.imghead').removeClass('imghead_active')
+                            })
+                        </script>
+                    </div>
+                    <hr class="desktop">
+                </div>
+            </div>
+            <div id="banner">
+                <div id="slider_desktop">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img class="img_slider" src="images/slider_home/slider01.png" alt="">
+                                <div class="hight_light">
+                                    <h1>Food irradiation</h1>
+                                    <p>Food irradiation is a technology that improves the safety and prolongs the shelf life of foods by reducing or eliminating microorganisms and parasites. Like pasteurized milk and vegetables ...
+                                    </p>
+                                    <div class="more_hight_light">
+                                        <a href="dichvu.html">View more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="img_slider" src="images/slider_home/slider02.png" alt="">
+                                <div class="hight_light">
+                                    <h1>Food irradiation</h1>
+                                    <p>Food irradiation is a technology that improves the safety and prolongs the shelf life of foods by reducing or eliminating microorganisms and parasites. Like pasteurized milk and vegetables ...
+                                    </p>
+                                    <div class="more_hight_light">
+                                        <a href="tintuc.html">View more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="img_slider" src="images/slider_home/slider03.png" alt="">
+                                <div class="hight_light">
+                                    <h1>Food irradiation</h1>
+                                    <p>Food irradiation is a technology that improves the safety and prolongs the shelf life of foods by reducing or eliminating microorganisms and parasites. Like pasteurized milk and vegetables ...
+                                    </p>
+                                    <div class="more_hight_light">
+                                        <a href="dichvu.html">View more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="video_popup">
+                                    <div class="video_play">
+                                        <img class="img_video" src="images/slider_home/video/video1.png" alt="">
+                                        <img class="bg_video" src="images/slider_home/video/bg_video.png" alt="">
+                                    </div>
+                                    <div class="title_video">
+                                        <h2>Quy trình chiếu xạ</h2>
+                                        <h1>IAEA</h1>
+                                    </div>
+                                    <a class="play" href="#" data-toggle="modal" data-target="#myModal"></a>
+
+                                </div>
+                                <div class="video_popup">
+                                    <div class="video_play">
+                                        <img class="img_video" src="images/slider_home/video/video2.png" alt="">
+                                        <img class="bg_video" src="images/slider_home/video/bg_video.png" alt="">
+                                    </div>
+                                    <div class="title_video">
+                                        <h2>Quy trình chiếu xạ</h2>
+                                        <h1>Coban</h1>
+                                    </div>
+                                    <a class="play" href="#" data-toggle="modal" data-target="#myModal"></a>
+
+                                </div>
+                                <div class="video_popup">
+                                    <div class="video_play">
+                                        <img class="img_video" src="images/slider_home/video/video3.png" alt="">
+                                        <img class="bg_video" src="images/slider_home/video/bg_video.png" alt="">
+                                    </div>
+                                    <div class="title_video">
+                                        <h2>Quy trình chiếu xạ</h2>
+                                        <h1>EB</h1>
+                                    </div>
+                                    <a class="play" href="#" data-toggle="modal" data-target="#myModal"></a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination swiper-pagination-white"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+                <div id="slider_mobile">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img class="img_slider" src="images/slider_mobile/1.png" alt="">
+                                <div class="hight_light">
+                                    <h1>Chiếu xạ thực phẩm</h1>
+                                    <p>Chiếu xạ thực phẩm là một công nghệ cải thiện độ an toàn và kéo dài thời gian bảo quản của các loại thực phẩm bằng cách giảm hoặc loại bỏ các vi sinh vật, con trùng. Giống như sữ thanh trùng và rau quả đóng họp...
+                                    </p>
+                                    <div class="more_hight_light">
+                                        <a href="dichvu.html">View more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="img_slider" src="images/slider_mobile/2.png" alt="">
+                                <div class="hight_light">
+                                    <h1>CÚ HÍCH XUẤT KHẨU</h1>
+                                    <p>Trong bối cảnh dịch Covid-19 diễn biến phức tạp, nhưng trong hơn 1 tháng qua kể từ khi Hiệp định Thương mại tự do Việt Nam- Liên minh Châu Âu (EVFTA) có hiệu lực đã tạo cơ hội lớn cho xuất khẩu của Việt Nam...
+                                    </p>
+                                    <div class="more_hight_light">
+                                        <a href="tintuc.html">View more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="img_slider" src="images/slider_mobile/3.png" alt="">
+                                <div class="hight_light">
+                                    <h1>Quy trình chiếu xạ</h1>
+                                    <p>Giới thiệu về toàn bộ quy trình vận hành của trung tâm chiếu xạ VINAGAMMA
+                                    </p>
+                                    <div class="more_hight_light">
+                                        <a href="dichvu.html">View more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="video_popup">
+                                    <div class="video_play">
+                                        <img class="img_video" src="images/slider_home/video/video1.png" alt="">
+                                        <img class="bg_video" src="images/slider_home/video/bg_video.png" alt="">
+                                    </div>
+                                    <div class="title_video">
+                                        <h2>Quy trình chiếu xạ</h2>
+                                        <h1>IAEA</h1>
+                                    </div>
+                                    <a class="play" href="#" data-toggle="modal" data-target="#myModal"></a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="video_popup">
+                                    <div class="video_play">
+                                        <img class="img_video" src="images/slider_home/video/video2.png" alt="">
+                                        <img class="bg_video" src="images/slider_home/video/bg_video.png" alt="">
+                                    </div>
+                                    <div class="title_video">
+                                        <h2>Quy trình chiếu xạ</h2>
+                                        <h1>Coban</h1>
+                                    </div>
+                                    <a class="play" href="#" data-toggle="modal" data-target="#myModal"></a>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="video_popup">
+                                    <div class="video_play">
+                                        <img class="img_video" src="images/slider_home/video/video3.png" alt="">
+                                        <img class="bg_video" src="images/slider_home/video/bg_video.png" alt="">
+                                    </div>
+                                    <div class="title_video">
+                                        <h2>Quy trình chiếu xạ</h2>
+                                        <h1>EB</h1>
+                                    </div>
+                                    <a class="play" href="#" data-toggle="modal" data-target="#myModal"></a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination swiper-pagination-white"></div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    var swiper = new Swiper('.swiper-container', {
+                        spaceBetween: 0,
+                        effect: '',
+                        autoplay: true,
+                        speed: 3000,
+                        loop: true,
+                        infinite: true,
+                        pagination: {
+                            el: '.swiper-pagination',
+                            clickable: true,
+                        }
+                    });
+                </script>
+                <div class="bg_menu"></div>
+            </div>
+        </div>
+        <div id="page_home">
+            <a href="khachhang.html">
+                <div class="box_home">
+                    <div class="hvr-icon-bounce">
+                        <img class="fa fa-thumbs-o-up hvr-icon" src="images/page_home/khachhang.svg" alt="">
+                    </div>
+                    <h4>customer</h4>
+                </div>
+            </a>
+            <a href="nghiencuudaotao.html">
+                <div class="box_home">
+                    <div class="hvr-icon-bounce">
+                        <img class="fa fa-thumbs-o-up hvr-icon" src="images/page_home/nghiencuudaotao.svg" alt="">
+                    </div>
+                    <h4>Training research</h4>
+                </div>
+            </a>
+            <a href="hoidap.html">
+                <div class="box_home">
+                    <div class="hvr-icon-bounce">
+                        <img class="fa fa-thumbs-o-up hvr-icon" src="images/page_home/hoidap.svg" alt="">
+                    </div>
+                    <h4>FAQ</h4>
+                </div>
+            </a>
+        </div>
+        <footer>
+            <div class="coppyright">
+                <div class="left_end">
+                    <p>© 2020 - Copyrightof Research and Development Center for Radiation Technology - <span>Vinagamma</span></p>
+                </div>
+                <div class="right_end">
+
+                    <p>Executing agency: <span>Vietnam National Atomic Energy Institute</span>
+                        <a href="https://vinatom.gov.vn/" target="_blank">
+                            <img src="images/vinatom.png" alt="">
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/menu_header.js"></script>
+<script type="text/javascript" src="js/jquery_ui.js"></script>
+<script type="text/javascript" src="js/edit_js.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript" src="js/edit_slick.js"></script>
+<script type="text/javascript" src="js/jquery.boxes.js"></script>
+<script type="text/javascript" src="js/jquery.boxes.repopup.js"></script>
+
+
+</html>
