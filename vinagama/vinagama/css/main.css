@@ -1377,11 +1377,12 @@ footer {
     margin-bottom: 30px;
 }
 
-.box_tochuc .des_tochuc {
+.box_tochuc .title_tochuc {
     width: 100%;
+    padding-top: 10px;
 }
 
-.box_tochuc .des_tochuc h2 {
+.box_tochuc .title_tochuc h2 {
     font-family: Roboto Condensed Bold;
     font-size: 18px;
     line-height: 22px;
@@ -1389,7 +1390,7 @@ footer {
     color: #545454;
 }
 
-.box_tochuc .des_tochuc h4 {
+.box_tochuc .title_tochuc h4 {
     font-size: 18px;
     line-height: 22px;
     color: #545454;
